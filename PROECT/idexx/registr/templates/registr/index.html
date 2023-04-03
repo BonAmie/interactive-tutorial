@@ -1,0 +1,13 @@
+{% extends 'registr/layout.html' %}
+
+{% block title %}Главная страница{% endblock %}
+
+{% block content  %}
+    <div class="features">
+        <h1>{{ title }}</h1>
+        <p>Добро пожаловать на сайт, на котором вы сможете получить базовые и полезные навыки в сфере программирования на языке Python.</p>
+        <h5>Наш сервис абсолютно бесплатен!</h5>
+        <a href="{% url 'lessons_home' %}" class="btn btn-danger">Перейти к обучению</a>
+
+    </div>
+{% endblock %}

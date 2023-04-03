@@ -1,0 +1,19 @@
+{% extends 'registr/layout.html' %}
+
+{% block title %}Личный кабинет{% endblock %}
+
+{% block content  %}
+    <div class="features">
+        <body>
+            <h1>Регестрация</h1>
+            <form method="post">
+                {% csrf_token %}
+                <input type="text" placeholder="Логин" class="form-control"><br>
+                <input type="text" placeholder="Пароль" class="form-control"><br>
+                <button class="btn btn-success" type="submit">Зарегестрироваться</button>
+            </form>
+        </body>
+        <a href="{% url 'lessons_home' %}" class="btn btn-secondary"><i class="fa-solid fa-ghost"></i> Продолжить как гость</a>
+
+    </div>
+{% endblock %}

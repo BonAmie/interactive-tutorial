@@ -1,0 +1,22 @@
+{% extends 'registr/layout.html' %}
+
+{% block title %}Личный кабинет{% endblock %}
+
+{% block content  %}
+    <div class="features">
+        <body>
+            <h1>Профиль</h1>
+            <p>Вы не вошли в аккаунт</p>
+        </body>
+
+        <div class="btns">
+            <a href="{% url 'loggin' %}" class="btn btn-primary">Войти в аккаунт</a>
+        </div>
+
+        <div class="btns1">
+            <a href="{% url 'registration' %}" class="btn btn-info">Регестрация</a>
+        </div>
+
+        {{log}}
+    </div>
+{% endblock %}

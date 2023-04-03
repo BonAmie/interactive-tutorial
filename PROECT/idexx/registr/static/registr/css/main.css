@@ -1,0 +1,88 @@
+body {
+    background: #F2F2F2;
+}
+
+aside {
+    float: left;
+    background: RoyalBlue;
+    width: 15%;
+    padding: 2;
+    height: 100vh;
+    color: #CDCD29;
+    border-right: 5px solid #CDCD29;
+}
+
+aside img {
+    margin-top: 10px;
+    width: 130px;
+    float: left;
+    margin-left: 65px;
+}
+
+aside .logo {
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+aside .logo1 {
+    font-size: 30px;
+    margin-left: 75px;
+    font-weight: bold;
+}
+
+aside h3 {
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 55px;
+}
+
+aside ul {list-style: none}
+aside ul li {
+    color: #CDCD29;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    margin-left: 25px;
+    transition: transform .2s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: white;
+    text-decoration: none;
+    transform: scale(1.004);
+}
+
+main .features {
+    float: left;
+    color: black;
+    margin-top: 100px;
+    text-align: center;
+    width: 85%;
+}
+
+main .features h1 {front-size: 50px;}
+main .features p{
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.alert-warning {
+    float: middle;
+    clear: both;
+    width: 1300px;
+    margin: 20px 10%;
+    text-align: middle;
+}
+
+form {
+    margin-left: 40.4%;
+    margin-top: 50px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.btns1 {
+    margin-top: 10px;
+}
+
